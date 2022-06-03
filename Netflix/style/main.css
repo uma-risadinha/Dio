@@ -1,0 +1,55 @@
+:root{
+    --cor-vermelho:#e50914;
+    --cor-preta: #141414;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+
+}
+/*Elementos base*/
+body{
+    background-color: var(--cor-preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--cor-vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+
+}
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme Principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rga(0,0,0,50), rga(0,0,0,50) 100%), url('../img/fundo-dr-estranho.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
